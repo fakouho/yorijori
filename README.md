@@ -67,8 +67,4 @@
 |강우석|권하은|김훈민|이채원|임지훈|
 |:---:|:---:|:---:|:---:|:---:|
 |Back-End, <br> Front-End|Back-End|AI|Front-End|Front-End|
-|- DB 설계<br>- Back-end환경구축<br>- Back-end API구현<br>- 크롤링(데이터 수집)<br>- Front-End API호출(댓글,게시글 관련)<br> 
-|- Back-end API구현<br>- Front-End API호출(댓글,게시글 관련)<br>
-|- Flask 서버 구축<br>- 머신러닝 모델 학습 및 구현<br><br>
-|- UI/UX 구현<br>- Figma를 활용한 디자인 구현<br>- React기반 구축
-|- UI/UX 구현<br>- Figma를 활용한 디자인 구현<br>- React기반 구축
+|- DB 설계<br>- Back-end환경구축<br>- Back-end API구현<br>- 크롤링(데이터 수집)<br>- Front-End API호출(댓글,게시글 관련)<br> |- Back-end API구현<br>- Front-End API호출(댓글,게시글 관련)<br>|- Flask 서버 구축<br>- 머신러닝 모델 학습 및 구현<br><br>|- UI/UX 구현<br>- Figma를 활용한 디자인 구현<br>- React기반 구축|- UI/UX 구현<br>- Figma를 활용한 디자인 구현<br>- React기반 구축
