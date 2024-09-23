@@ -1,5 +1,5 @@
 # :pushpin: normALearn
-![image](https://github.com/user-attachments/assets/b7bf133b-cff3-44da-9923-49c0e0b1ad51)
+![image](https://github.com/user-attachments/assets/4dcfb83a-b752-4f90-aad0-d1f35e7bc448)
 > AutoML 기반 앙상블 모델을 활용한 AL합금 열처리 정보제공 서비스
 
 </br>
