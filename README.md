@@ -1,12 +1,12 @@
-# :pushpin: normALearn
-![image](https://github.com/user-attachments/assets/b7bf133b-cff3-44da-9923-49c0e0b1ad51)
+# :pushpin: YORIJORI
+![image](https://github.com/user-attachments/assets/ea71f141-d855-492a-b836-d44b7c1ac1ce)
 > AutoML 기반 앙상블 모델을 활용한 AL합금 열처리 정보제공 서비스
 
 </br>
 
 ## 1. 제작 기간 & 참여 인원
-- 2024년 5월 28일 ~ 6월 20일
-- 5인 (박준범, 강우석, 주우건, 강아람, 박종현)
+- 2024년 7월 19일 ~ 8월 2일(2주)
+- 5인 (강우석, 이채원, 권하은, 백종호, 김훈민)
 
 </br>
 
