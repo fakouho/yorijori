@@ -1,23 +1,23 @@
-# :pushpin: YORIJORI
-![image](https://github.com/user-attachments/assets/ea71f141-d855-492a-b836-d44b7c1ac1ce)
+# :pushpin: normALearn
+![image](https://github.com/user-attachments/assets/b7bf133b-cff3-44da-9923-49c0e0b1ad51)
 > AutoML 기반 앙상블 모델을 활용한 AL합금 열처리 정보제공 서비스
 
 </br>
 
 ## 1. 제작 기간 & 참여 인원
-- 2024년 7월 19일 ~ 8월 2일(2주)
-- 5인 (강우석, 이채원, 권하은, 백종호, 김훈민)
+- 2024년 5월 28일 ~ 6월 20일
+- 5인 (강우석, 권하은, 김훈민, 이채원, 임지훈)
 
 </br>
 
 ## 2. 사용 기술
-![image](https://github.com/clavis13/normALearn/assets/155136484/1832c3ec-dce1-4e9f-9127-a282c56ca8f8)
+![image](https://github.com/user-attachments/assets/13bd07f0-f6cf-412d-aee6-9b1d1922c79d)
 
 
 </br>
 
 ## 3. ERD 설계
-![image](https://github.com/clavis13/normALearn/assets/155136484/49f20c78-0cf8-4ddd-95cd-be1407459d8f)
+![image](https://github.com/user-attachments/assets/ef192af1-1d1c-4543-b513-7ca6d3d9b9ba)
 
 
 
@@ -29,8 +29,8 @@ ChartAPI를 사용해주는 것으로 시각화를 챙겨주었습니다.</br>
 또한, AutoML을 위해 사용자에게 현업에서 얻어지는 실제데이터를 입력 받아 ML 재학습을 진행시킬 수 있는 Flask 서버 역시 구축하였습니다.</br>
 
 
-### 개발 내용
-![image](https://github.com/clavis13/normALearn/assets/155136484/5810f120-d696-4925-a179-cced1e48b8fb)
+### 시스템 아키텍처
+![image](https://github.com/user-attachments/assets/5b5fdbaa-24f4-4a3f-af3c-c0237d7628ba)
 
 
 </br>
