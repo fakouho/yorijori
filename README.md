@@ -1,6 +1,6 @@
 # :pushpin: normALearn
 ![image](https://github.com/user-attachments/assets/4dcfb83a-b752-4f90-aad0-d1f35e7bc448)
-> AutoML 기반 앙상블 모델을 활용한 AL합금 열처리 정보제공 서비스
+> 식재료 기반 음식 추천 서비스
 
 </br>
 
@@ -22,11 +22,11 @@
 
 
 ## 4. 핵심 기능
-이 서비스의 핵심 기능은 사용자가 원하는 기계적 특성 4가지를 입력 받는 것으로</br>
-구축된 ML을 Flask를 통해 AL합금의 기계적 특성 및 조성, 열처리 방법 등을 예측받아오며</br>
-React 기반의 개발환경으로 Single Page Application을 구현하여 사용자 친화적 인터페이스를 구축하였고</br>
-ChartAPI를 사용해주는 것으로 시각화를 챙겨주었습니다.</br>
-또한, AutoML을 위해 사용자에게 현업에서 얻어지는 실제데이터를 입력 받아 ML 재학습을 진행시킬 수 있는 Flask 서버 역시 구축하였습니다.</br>
+해당 서비스의 핵심 기능은 사용자의 식재료 키워드 or 이미지 기반 검색 기반을</br>
+통해 관련 식재료에 따른 음식을 추천하는 서비스 입니다.</br>
+ 또한 로그인을 할시 댓글 또는 음식 게시판 정보를 바탕으로 AI를 통해 사용자가 </br>
+선호하는 음식을 추천하도록 알고리즘을 구현하였습니다.</br>
+ 마지막으로 해당 프로젝트는 Front_end와 Back_end를 개별 관리하며 프로젝트 오류를 최소화 하엿습니다.</br>
 
 
 ### 시스템 아키텍처
@@ -64,7 +64,11 @@ ChartAPI를 사용해주는 것으로 시각화를 챙겨주었습니다.</br>
 <br>
 
 ## 6. 팀원 소개
-|박준범|강우석|주우건|강아람|박종현|
+|강우석|권하은|김훈민|이채원|임지훈|
 |:---:|:---:|:---:|:---:|:---:|
-|Product Manager, <br> AI|Front-End|Back-End|Front-End|Front-End|
-|XGBoost,Pipeline<br>기반 ML모델 구축<br><br>ML배포용 Flask 구축<br><br>통합개발환경 구축|Front-end 아키텍처<br><br>Back-end 연동<br>및 데이터 처리<br><br>Git 형상관리<br><br>통합개발환경 구축|DB 설계 및 관리<br><br>Back-end 로직 구현<br><br>Front-end 연동<br>및 데이터 통신|UI/UX 작업<br><br>OpenAPI 구현|Chart API 작업|
+|Back-End, <br> Front-End|Back-End|AI|Front-End|Front-End|
+|- DB 설계<br>- Back-end환경구축<br>- Back-end API구현<br>- 크롤링(데이터 수집)<br>- Front-End API호출(댓글,게시글 관련)<br> 
+|- Back-end API구현<br>- Front-End API호출(댓글,게시글 관련)<br>
+|- Flask 서버 구축<br>- 머신러닝 모델 학습 및 구현<br><br>
+|- UI/UX 구현<br>- Figma를 활용한 디자인 구현<br>- React기반 구축
+|- UI/UX 구현<br>- Figma를 활용한 디자인 구현<br>- React기반 구축
