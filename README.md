@@ -1,6 +1,6 @@
 # :pushpin: normALearn
 ![image](https://github.com/user-attachments/assets/4dcfb83a-b752-4f90-aad0-d1f35e7bc448)
-> 식재료 기반 음식 추천 서비스
+> 식재료 기반 음식 검색 및 사용자 취향 추천 서비스
 
 </br>
 
@@ -36,29 +36,25 @@
 </br>
 
 ## 5. 핵심 트러블 슈팅
-### 5.1. 외부 API 연동 문제
-- 내용 : 기존에 jquery방식으로 구동되는 API를 React에서 제대로 구동되지 않았음
-- 문제 : 프로그래밍 방식 차이
-- 해결 : 커스텀 Hooks를 활용한 컴포넌트 상태관리 도구를 추가하여 구동하였음
-![image](https://github.com/clavis13/normALearn/assets/155136484/1ef0dd88-da5b-49e0-a9fa-3c480c7e6f57)
+### 5.1. 데이터 과적합 문제
+- 내용 : 데이터 세트의 데이터 불균형에 따른 결과값 오류 문제
+- 문제 : 데이터의 긍정 부정의 데이터 양의 불균형
+- 해결 : 가중치 조절을 통해 문제 해결
+![image](https://github.com/user-attachments/assets/c0b8767c-e577-44c7-b80b-fe91828159d1)
 
-### 5.2. 무한 데이터 호출 문제
-- 내용 : API.jsx에 접속 시 무한 데이터 랜더링현상 발생
-- 문제 : useEffect 의존성 배열 오류
-- 해결 : 의존성 배열의 재선언</br>
-![image](https://github.com/clavis13/normALearn/assets/155136484/3c5d4477-9b5c-4d9e-8741-15be849e49f1)
+### 5.2. React 컴포넌트 오류 문제
+- 내용 : React 컴포넌트된 페이지의 출력 문제 
+- 문제 : React 컴포넌트 충돌로 발생한 다중 출력 및 화면 정지
+- 해결 : 의존성 배열의 재선언 및 주석을 통해 협업 관리</br>
+![image](https://github.com/user-attachments/assets/7c5a1234-dadc-4e16-b774-7599ecf64cfd)
 
-### 5.3. 머신러닝 데이터 과적합 의심
-- 내용 : ML 구축 결과 정확도가 99%가 나오는 것으로 과적합 발생
-- 문제 : 적은 데이터셋, 전체 데이터셋을 사용하여 교차검증이 안됨
-- 해결 : 기존 데이터셋의 60%를 가지고 ML을 구축하고 나머지 40%의 데이터로 교차검증하여 과적합을 최소화 시켰음</br>
-![image](https://github.com/clavis13/normALearn/assets/155136484/c0cacd67-5c93-48a4-a304-21e867d07dca)
+### 5.3. 협업도구 관리 문제
+- 내용 : 헙업도구 활용에 불편한 
+- 문제 : React 및 node.js & express를 활용에 node_modules의 깃허브 업로딩
+- 해결 : .gitignore을 활용하여 node_modules의 업로드 방지</br>
+![image](https://github.com/user-attachments/assets/f5826db5-afec-40a8-a256-10d1bbb6eb26)
 
-### 5.4. DB 컬럼 네이밍 문제
-- 내용 : 카멜 케이스로 설정되어있는 컬럼을 스프링의 JPA를 실행시키면 스네이크 방식으로 추가 컬럼 및 포링키가 생성되었음
-- 문제 : 컬럼명 오류
-- 해결 : JPA에서 properties 설정하여 DB문제 해결</br>
-![image](https://github.com/clavis13/normALearn/assets/155136484/21fd3528-c800-4440-8e62-29492851db56)
+
 
 
 <br>
